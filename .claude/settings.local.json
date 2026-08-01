@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python.exe -m pip list)",
+      "Bash(\"c:\\\\Users\\\\soksy\\\\OneDrive\\\\SelectivePrep\\\\AnswerSheetGenerator\\\\.venv\\\\Scripts\\\\python.exe\" --version)",
+      "Bash(.venv/Scripts/python.exe generate_answer_sheet.py sections.yaml /tmp/test_full.pdf)",
+      "Bash(.venv/Scripts/python.exe generate_answer_sheet.py sections.yaml /tmp/test_range.pdf -s 3-5)",
+      "Bash(.venv/Scripts/python.exe generate_answer_sheet.py sections.yaml /tmp/test_single.pdf -s 7)",
+      "Bash(.venv/Scripts/python.exe generate_answer_sheet.py sections.yaml /tmp/test_bad.pdf -s 99)",
+      "Bash(.venv/Scripts/python.exe generate_answer_sheet.py sections.yaml /tmp/test_bad2.pdf -s abc)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(.venv/Scripts/python.exe generate_answer_sheet.py --help)",
+      "Bash(.venv\\\\Scripts\\\\python.exe generate_answer_sheet.py sections.yaml -s 1-2)"
+    ]
+  }
+}
