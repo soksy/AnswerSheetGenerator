@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python.exe --version)",
+      "Bash(python -m venv test_venv)",
+      "Bash(test_venv/Scripts/pip.exe install *)",
+      "Bash(\"C:\\\\Users\\\\soksy\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\o--OneDrive-SelectivePrep-AnswerSheetGenerator\\\\a9b8f388-4bbc-40b5-a4b9-47be9926c932\\\\scratchpad\\\\test_venv\\\\Scripts\\\\python.exe\" generate_answer_sheet.py reading-sections.yaml \"C:\\\\Users\\\\soksy\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\o--OneDrive-SelectivePrep-AnswerSheetGenerator\\\\a9b8f388-4bbc-40b5-a4b9-47be9926c932\\\\scratchpad\\\\readme_test.pdf\")"
+    ]
+  }
+}
